@@ -3,7 +3,6 @@ import { Navbar, Form, FormControl, Button,Container, Row, Col } from 'react-boo
 import CubeFoodTruck from "../assets/images/CubeFoodTruck.png";
 
 
-
 export default class Foodtruckslist extends Component {
     render() {
         return (

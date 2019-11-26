@@ -7,6 +7,8 @@ import Resturents from "./Resturents";
 import Foodtrucks from "./Foodtrucks";
 import Homepage from "./Homepage";
 import SushiCentro from "./SushiCentro";
+import Registration from "./Registerpage";
+import Loginpage from "./Signinpage";
 
 
 
@@ -24,8 +26,8 @@ export default class Navbarmenu extends Component {
                  
                       <img className="profileimg" src={Profileimg}/>
                       <NavDropdown  id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Register</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Login</NavDropdown.Item>
+                        <NavDropdown.Item><Link  className="nav-link" to="/Register">Register</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link  className="nav-link" to="/login">Login</Link></NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="#action/3.4">Contact us</NavDropdown.Item>
                       </NavDropdown>
@@ -35,6 +37,10 @@ export default class Navbarmenu extends Component {
              <Route  path="/Resturents" component={Resturents} />
              <Route  path="/Foodtrucks" component={Foodtrucks} />
              <Route  path="/SushiCentroResturent" component={SushiCentro} />
+             <Route  path="/Register" component={Registration} />
+             <Route  path="/login" component={Loginpage} />
+             
+             
             </Switch>
          </BrowserRouter>
            </div> 

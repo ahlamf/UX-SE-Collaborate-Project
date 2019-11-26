@@ -1,43 +1,8 @@
 import React, { Component } from 'react';
 import { Form, Button } from 'react-bootstrap';
-import axios from 'axios';
+
 
 export default class Signinpage extends Component {
-  constructor(props) {
-    super(props);
-
-    this.onChangeEmailaddres = this.onChangeEmailaddres.bind(this);
-    this.onChangePassword = this.onChangePassword.bind(this);
-    this.onSubmit = this.onSubmit.bind(this);
-
-    this.state = {
-      emailaddres: ''
-    
-    }
-  }
-  onChangeEmailaddress(e) {
-    this.setState({
-      emailaddres: e.target.value
-    })
-  }
-
-  onSubmit(e) {
-    e.preventDefault();
-
-    const user = {
-      emailaddres: this.state.emailaddres
-    }
-
-    console.log(user);
-
-    axios.post('http://localhost:5500/users/add', user)
-    .then(res => console.log(res.data));
-
-  this.setState({
-    username: ''
-  })
-}
-
 
     render() {
         return (

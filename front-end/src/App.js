@@ -8,7 +8,8 @@ import Resturents from "./components/Resturents";
 import Foodtrucks from "./components/Foodtrucks";
 import SushiCentro from "./components/SushiCentro";
 import Signinpage from "./components/Signinpage";
-
+import Adminfoodtrucks from "./components/Admaddfoodtruck";
+import Adminfoodtrucklist from "./components/Adminfoodtrucks";
 
 
 export default class App extends Component {
@@ -16,7 +17,7 @@ export default class App extends Component {
     return (
       <div>
         <Navbarmenu/>   
-      
+        <Adminfoodtrucklist/>
         <Footermenu/>
       </div>
     )

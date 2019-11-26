@@ -29,7 +29,8 @@ export default class Adminfoodtrucks extends Component {
                       <h3>Food Trucks</h3>
                       <h6>Lorem</h6>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a velit sit amet justo rutrum rutrum. </p>
-                      <Button variant="info">Select</Button>
+                      <Button variant="info">Edit</Button>
+                      <Button variant="info">Delete</Button>
                       </Col>
                   </Row>
                   <br/>
@@ -39,7 +40,8 @@ export default class Adminfoodtrucks extends Component {
                       <h3>Food Trucks</h3>
                       <h6>Lorem</h6>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a velit sit amet justo rutrum rutrum. </p>
-                      <Button variant="info">Select</Button>
+                      <Button variant="info">Edit</Button>
+                      <Button variant="info">Delete</Button>
                       </Col>
                   </Row>
                   <br/>
@@ -49,7 +51,8 @@ export default class Adminfoodtrucks extends Component {
                       <h3>Food Trucks</h3>
                       <h6>Lorem</h6>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a velit sit amet justo rutrum rutrum. </p>
-                      <Button variant="info">Select</Button>
+                      <Button variant="info">Edit</Button>
+                      <Button variant="info">Delete</Button>
                       </Col>
                   </Row>
                   <br/>
@@ -59,7 +62,8 @@ export default class Adminfoodtrucks extends Component {
                       <h3>Food Trucks</h3>
                       <h6>Lorem</h6>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a velit sit amet justo rutrum rutrum. </p>
-                      <Button variant="info">Select</Button>
+                      <Button variant="info">Edit</Button>
+                      <Button variant="info">Delete</Button>
                       </Col>
                   </Row>
                   <br/>
