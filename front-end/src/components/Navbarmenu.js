@@ -7,8 +7,8 @@ import Resturents from "./Resturents";
 import Foodtrucks from "./Foodtrucks";
 import Homepage from "./Homepage";
 import SushiCentro from "./SushiCentro";
-import Registration from "./Registerpage";
-import Loginpage from "./Signinpage";
+import Registration from "./usersetting/Registerpage";
+import Loginpage from "./usersetting/Signinpage";
 
 
 

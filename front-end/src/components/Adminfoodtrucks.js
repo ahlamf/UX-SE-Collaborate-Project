@@ -3,10 +3,12 @@ import { Navbar, Form, FormControl, Button,Container, Row, Col } from 'react-boo
 import CubeFoodTruck from "../assets/images/CubeFoodTruck.png";
 import { Route, BrowserRouter, Switch, Link,} from 'react-router-dom';
 import Admaddfoodtruck from "./Admaddfoodtruck";
+import axios from 'axios';
 
 
 
 export default class Adminfoodtrucks extends Component {
+  
     render() {
         return (
             <div>

@@ -22,21 +22,21 @@ export default class Admaddfoodtruck extends Component {
       foodtrucknew: []
     }
   }
-  componentDidMount() {
-    axios.get('http://localhost:5000/api/foodtrucks'+this.props.match.params.id)
-      .then(response => {
-        this.setState({
-          name: response.data.name,
-          description: response.data.description,
-          location: response.data.location,
-          date: new Date(response.data.date)
-        })   
-      })
-      .catch(function (error) {
-        console.log(error);
-      })
+  // componentDidMount() {
+  //   axios.get('http://localhost:5300/api/foodtrucks'+this.props.match.params.id)
+  //     .then(response => {
+  //       this.setState({
+  //         name: response.data.name,
+  //         description: response.data.description,
+  //         location: response.data.location,
+        
+  //       })   
+  //     })
+  //     .catch(function (error) {
+  //       console.log(error);
+  //     })
 
-  onChangeImage(e) {
+  onChangeImage(e){
     this.setState({
       image: e.target.value
     })
@@ -74,11 +74,12 @@ export default class Admaddfoodtruck extends Component {
 
     console.log(addfoodtruck);
 
-    axios.post('http://localhost:5300/foodTrucks.route/add', addfoodtruck)
+    axios.post('http://localhost:5300/foodTrucks/add', addfoodtruck)
       .then(res => console.log(res.data));
 
     window.location = '/';
   }
+  
 
   render() {
     return (
